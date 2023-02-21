@@ -13,6 +13,9 @@
 		CEB10EB529A3A2F7007A3557 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEB10EB329A3A2F7007A3557 /* Main.storyboard */; };
 		CEB10EB729A3A2F8007A3557 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CEB10EB629A3A2F8007A3557 /* Assets.xcassets */; };
 		CEB10EBA29A3A2F8007A3557 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEB10EB829A3A2F8007A3557 /* LaunchScreen.storyboard */; };
+		CEB10EC229A3C817007A3557 /* Constans.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEB10EC129A3C817007A3557 /* Constans.swift */; };
+		CEB10EC429A3CA3E007A3557 /* Video.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEB10EC329A3CA3E007A3557 /* Video.swift */; };
+		CEB10EC629A3CAB0007A3557 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEB10EC529A3CAB0007A3557 /* Model.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +27,9 @@
 		CEB10EB629A3A2F8007A3557 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CEB10EB929A3A2F8007A3557 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CEB10EBB29A3A2F8007A3557 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CEB10EC129A3C817007A3557 /* Constans.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constans.swift; sourceTree = "<group>"; };
+		CEB10EC329A3CA3E007A3557 /* Video.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Video.swift; sourceTree = "<group>"; };
+		CEB10EC529A3CAB0007A3557 /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +65,9 @@
 				CEB10EAD29A3A2F7007A3557 /* AppDelegate.swift */,
 				CEB10EAF29A3A2F7007A3557 /* SceneDelegate.swift */,
 				CEB10EB129A3A2F7007A3557 /* ViewController.swift */,
+				CEB10EC329A3CA3E007A3557 /* Video.swift */,
+				CEB10EC529A3CAB0007A3557 /* Model.swift */,
+				CEB10EC129A3C817007A3557 /* Constans.swift */,
 				CEB10EB329A3A2F7007A3557 /* Main.storyboard */,
 				CEB10EB629A3A2F8007A3557 /* Assets.xcassets */,
 				CEB10EB829A3A2F8007A3557 /* LaunchScreen.storyboard */,
@@ -140,7 +149,10 @@
 			files = (
 				CEB10EB229A3A2F7007A3557 /* ViewController.swift in Sources */,
 				CEB10EAE29A3A2F7007A3557 /* AppDelegate.swift in Sources */,
+				CEB10EC229A3C817007A3557 /* Constans.swift in Sources */,
+				CEB10EC629A3CAB0007A3557 /* Model.swift in Sources */,
 				CEB10EB029A3A2F7007A3557 /* SceneDelegate.swift in Sources */,
+				CEB10EC429A3CA3E007A3557 /* Video.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
