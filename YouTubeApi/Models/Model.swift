@@ -28,6 +28,7 @@ class Model {
                 return
             }
             do {
+                
                 // Parsing the data into video objects
                 let decoder = JSONDecoder()
                 decoder.dateDecodingStrategy = .iso8601

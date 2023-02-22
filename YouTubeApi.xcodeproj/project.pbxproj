@@ -20,6 +20,7 @@
 		CEB10EC629A3CAB0007A3557 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEB10EC529A3CAB0007A3557 /* Model.swift */; };
 		CEEAF79829A6490C0080FC37 /* VideoTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEEAF79729A6490C0080FC37 /* VideoTableViewCell.swift */; };
 		CEEAF79A29A6553A0080FC37 /* CacheManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEEAF79929A6553A0080FC37 /* CacheManager.swift */; };
+		CEEAF79C29A65ABD0080FC37 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEEAF79B29A65ABD0080FC37 /* DetailViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -38,6 +39,7 @@
 		CEB10EC529A3CAB0007A3557 /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
 		CEEAF79729A6490C0080FC37 /* VideoTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoTableViewCell.swift; sourceTree = "<group>"; };
 		CEEAF79929A6553A0080FC37 /* CacheManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CacheManager.swift; sourceTree = "<group>"; };
+		CEEAF79B29A65ABD0080FC37 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,6 +89,7 @@
 			isa = PBXGroup;
 			children = (
 				CEB10EB129A3A2F7007A3557 /* ViewController.swift */,
+				CEEAF79B29A65ABD0080FC37 /* DetailViewController.swift */,
 			);
 			path = "View Controllers";
 			sourceTree = "<group>";
@@ -199,6 +202,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CEEAF79C29A65ABD0080FC37 /* DetailViewController.swift in Sources */,
 				CEB10EB229A3A2F7007A3557 /* ViewController.swift in Sources */,
 				CEB10EAE29A3A2F7007A3557 /* AppDelegate.swift in Sources */,
 				CEB10EC229A3C817007A3557 /* Constants.swift in Sources */,
