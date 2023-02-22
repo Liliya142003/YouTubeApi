@@ -16,10 +16,13 @@ class Model {
         let url = URL(string: Constants.apiUrl)
         
         guard url != nil else {return}
+        
         // Get a URLSession object
         let session = URLSession.shared
+        
         //Get a data task from a URLSession object
         let dataTask = session.dataTask(with: url!) { (data, response, error ) in
+            
             //Check if there were any  errors
             if error != nil || data == nil {
                 return
@@ -38,9 +41,7 @@ class Model {
                 }
                 // dump(response)
             }
-            catch{
-                
-            }
+            catch{}
         }
         // Kick off the task
         dataTask.resume()
